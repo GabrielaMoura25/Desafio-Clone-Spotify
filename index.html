@@ -11,19 +11,41 @@
     <title>Música para todos - Spotify</title>
 </head>
 <body>
-    <!-- Navbar -->
-    <navbar id="navbar">
-        <div class="navbar-container">
-            <img src="img/logo.png" alt="" class="logo">
-            <ul class="navbar-items">
-                <li class="navbar-item">Premium</li>
-                <li class="navbar-item">Ajuda</li>
-                <li class="navbar-item">Baixar</li>
-                <li class="navbar-item">Inscrever-se</li>
-                <li class="navbar-item">Entrar</li>
-            </ul>
-        </div>
-    </navbar>
+    <header>
+        <!-- Navbar -->
+        <navbar id="navbar">
+            <div class="navbar-container">
+                <img src="img/logo.png" alt="" class="logo">
+                <ul class="navbar-items">
+                    <li class="navbar-item">Premium</li>
+                    <li class="navbar-item">Ajuda</li>
+                    <li class="navbar-item">Baixar</li>
+                    <li class="navbar-item">Inscrever-se</li>
+                    <li class="navbar-item">Entrar</li>
+                </ul>
+            </div>
+        </navbar>
+
+        <!-- Sidebar -->
+        <navbar id="sidebar">
+            <div class="sidebar-container">
+                <div class="sidebar-items-left">
+                    <ul class="sidebar-items">
+                        <li class="navbar-item">Premium</li>
+                        <li class="navbar-item">Ajuda</li>
+                        <li class="navbar-item">Baixar</li>
+                        <div class="line"></div>
+                        <li class="navbar-item small">Inscrever-se</li>
+                        <li class="navbar-item small">Entrar</li>
+                    </ul>
+                    <img src="img/logo.png" alt="" class="logo">
+                </div>
+                <button class="btn-menu" id="btn-menu-close" onclick="toggleSidebar()">
+                    <i class="fab fa-xmark"></i>
+                </button>
+            </div>
+        </navbar>
+    </header>
 
     <!-- Showcase -->
     <div id="showcase">
@@ -88,5 +110,6 @@
 
     <!-- Scripts -->
     <script src="https://kit.fontawesome.com/e03bd7f308.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
