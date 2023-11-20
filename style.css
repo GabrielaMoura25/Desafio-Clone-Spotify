@@ -48,7 +48,7 @@ body {
 }
 
 #navbar .navbar-container {
-    width: 65%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -111,13 +111,13 @@ body {
 
 #footer .footer-content {
     display: flex;
-    width: 65%;
+    width: 60%;
     margin: auto;
     justify-content: space-between;
 }
 
 #footer .footer-content .footer-menu {
-    margin: 0 60px;
+    margin: 0 40px;
     list-style: none;
 }
 
@@ -146,6 +146,13 @@ body {
 .socials i {
     margin: 0 20px;
     font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #474747;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
     transition: all 300ms ease;
 }
 
